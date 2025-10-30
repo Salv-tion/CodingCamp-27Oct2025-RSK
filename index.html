@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>Todo List</title>
 
     <!-- CSS Extrernal Link -->
     <link rel="stylesheet" href="CSS\style.css">
@@ -12,13 +12,38 @@
 <body>
 
     <!-- Header Content -->
-    <header></header>
+    <header>
+        <h1>Todo List Website - Rahtama</h1>
+    </header>
 
     <!-- Main Content -->
-    <main></main>
+    <main>
+        <!-- Form Section -->
+        <section>
+            <form>
+                <!-- Todo Input -->
+                <input type="text" id="text-todo" placeholder="Enter a new todo list">
+                
+                <!-- Date Input -->
+                <input type="date" id="date-todo" placeholder="Enter Date">
+            </form>
+
+            <!-- Button Section -->
+            <button type="submit" id="submit-todo">Add To-Do</button>
+        </section>
+        
+        <!-- Action Section -->
+        <section></section>
+
+        <!-- Todo List Section -->
+        <section>
+            <ul id="todo-list"></ul>
+    </main>
 
     <!-- Footer Content -->
-    <footer></footer>
+    <footer>
+        <p>&copy; 2025 Todo List Website. All rights reserved.</p>
+    </footer>
     
     <!-- JavaScript External File Link -->
     <script src="js/script.js"></script>
