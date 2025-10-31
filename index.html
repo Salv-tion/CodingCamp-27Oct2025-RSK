@@ -13,7 +13,7 @@
 
     <!-- Header Content -->
     <header>
-        <h1>Todo List Website - Rahtama</h1>
+        <h1 class="judul">Todo List Website - Rahtama</h1>
     </header>
 
     <!-- Main Content -->
@@ -29,15 +29,28 @@
             </form>
 
             <!-- Button Section -->
-            <button type="submit" id="submit-todo">Add To-Do</button>
+            <button type="submit" class="submito" id="submit-todo">Add To-Do</button>
         </section>
         
         <!-- Action Section -->
-        <section></section>
+        <section class="action-section">
+
+            <!-- Clear Todo -->
+            <button class="Clear" id="clear-todo">Clear All</button>
+
+            <!-- Filter Todo -->
+            <button class="filter" id="filter-todo">Filter Item</button>
+
+
+        </section>
 
         <!-- Todo List Section -->
         <section>
             <ul id="todo-list"></ul>
+
+            <!-- Todo Item -->
+            <li>No todos available</li>
+        </section>
     </main>
 
     <!-- Footer Content -->
