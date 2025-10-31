@@ -10,12 +10,13 @@
 </head>
 
 <body>
+<div class="container">
 
     <!-- Header Content -->
     <header>
-        <h1 class="judul">Todo List Website - Rahtama</h1>
+        <h1 class="judul">Todo List</h1>
     </header>
-
+    
     <!-- Main Content -->
     <main>
         <!-- Form Section -->
@@ -27,36 +28,36 @@
                 <!-- Date Input -->
                 <input type="date" class="dateinp" id="date-todo" placeholder="Enter Date">
                 <!-- Button Section -->
-            <button type="submit" class="submito" id="submit-todo"> + </button>
-
+                <button type="submit" class="submito" id="submit-todo"> + </button>
+                
             </form>
         </section>
         
         <!-- Action Section -->
         <section class="action-section">
-
+            
             <!-- Clear Todo -->
             <button class="Clear" id="clear-todo">Clear All</button>
-
+            
             <!-- Filter Todo -->
             <button class="filter" id="filter-todo">Filter Item</button>
 
 
         </section>
-
-        <!-- Todo List Section -->
+        
+    <!-- Todo List Section -->
         <section>
-            <ul id="todo-list"></ul>
-
-            <!-- Todo Item -->
-            <li>No todos available</li>
+          <ul class="todolist"></ul>
+          <li>No todo available</li>
         </section>
     </main>
+</div>
 
     <!-- Footer Content -->
-    <footer>
+    <!-- <footer> 
         <p>&copy; 2025 Todo List Website. All rights reserved.</p>
     </footer>
+    -->
     
     <!-- JavaScript External File Link -->
     <script src="js/script.js"></script>
