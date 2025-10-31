@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To Do List</title>
+    <title>Todo List</title>
 
     <!-- CSS Extrernal Link -->
     <link rel="stylesheet" href="CSS\style.css">
@@ -12,13 +12,51 @@
 <body>
 
     <!-- Header Content -->
-    <header></header>
+    <header>
+        <h1 class="judul">Todo List Website - Rahtama</h1>
+    </header>
 
     <!-- Main Content -->
-    <main></main>
+    <main>
+        <!-- Form Section -->
+        <section>
+            <form>
+                <!-- Todo Input -->
+                <input type="text" id="text-todo" placeholder="Enter a new todo list">
+                
+                <!-- Date Input -->
+                <input type="date" class="dateinp" id="date-todo" placeholder="Enter Date">
+                <!-- Button Section -->
+            <button type="submit" class="submito" id="submit-todo"> + </button>
+
+            </form>
+        </section>
+        
+        <!-- Action Section -->
+        <section class="action-section">
+
+            <!-- Clear Todo -->
+            <button class="Clear" id="clear-todo">Clear All</button>
+
+            <!-- Filter Todo -->
+            <button class="filter" id="filter-todo">Filter Item</button>
+
+
+        </section>
+
+        <!-- Todo List Section -->
+        <section>
+            <ul id="todo-list"></ul>
+
+            <!-- Todo Item -->
+            <li>No todos available</li>
+        </section>
+    </main>
 
     <!-- Footer Content -->
-    <footer></footer>
+    <footer>
+        <p>&copy; 2025 Todo List Website. All rights reserved.</p>
+    </footer>
     
     <!-- JavaScript External File Link -->
     <script src="js/script.js"></script>
