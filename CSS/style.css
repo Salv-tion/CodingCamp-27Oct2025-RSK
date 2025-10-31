@@ -1,0 +1,38 @@
+body{
+    justify-items: center;
+    align-content: center;
+    height: 100vh;
+}
+.judul {
+    font-family: helvetica;
+}
+.action-section {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
+*{
+    font-family: sans-serif !important;
+}
+
+input {
+    padding: 5px;
+    margin: 8px;
+}
+button {
+    padding: 5px;
+    margin: 8px;
+}
+
+.submito {
+    background-color: green;
+    color: white;
+    border: green;
+    width: 100px;
+    height: 40px;
+}
